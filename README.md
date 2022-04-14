@@ -17,10 +17,10 @@ https://www.figma.com/proto/2OS1RIRgVeOGEbQDpOAHTC/Untitled?node-id=11%3A6&start
 - [ ] Controle de erros e exceção via web.xml
   - [ ] Tratamento por código de status ou exceção específica
   - [ ] Tratamento de erros genérico
-- [ ] JSTL e TagLib
-  - [ ] forEach
-  - [ ] if
-  - [ ] Template com cabeçalho e rodapé
+- [x] JSTL e TagLib
+  - [x] forEach
+  - [x] if
+  - [x] Template com cabeçalho e rodapé
 - [ ] JavaScript
   - [ ] Requisição AJAX
   - [ ] Armazenamento no LocalStorage
