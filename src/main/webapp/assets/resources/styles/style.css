@@ -1,0 +1,360 @@
+html {
+    font-family: 'Comfortaa', cursive;
+}
+
+a {text-decoration: none;}
+
+h1 {font-size: 2rem;}
+
+h2 {font-size: 1.5rem;}
+
+h3 {
+    margin-bottom: 0;
+    font-size: 1rem;}
+
+p {font-size: 1rem;}
+
+textarea {
+    resize: none;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+body {margin: 0;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #084183;}
+
+footer {
+    display: flex;
+    align-content: center;
+    clear: both;
+    position: relative;
+    background-color: #084183;
+    justify-content: space-between;}
+
+input {
+    padding-left: 0.5rem;
+}
+
+main {
+    max-width: 75rem;
+    margin: auto;
+    min-height: 80.9vh;}
+
+.contacts {
+    margin-top: 0.5rem;
+    display: flex;
+    font-weight: normal;}
+
+.contact {
+    color: white;
+    margin-right: 1rem;}
+
+.telephone-email {
+    color: white;
+    margin-right: 1rem;
+    margin-top: 1.6rem;}
+
+.itens-right {
+    display: flex;
+    padding-top: 0.5rem;}
+
+.login-container {
+    display: flex;}
+
+.login {
+    margin-top: 0.9rem;
+    margin-right: 1rem;}
+
+button {
+    border-radius: 25px;
+    font-size: 24px;
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    color: #084183;
+    padding: 0.4rem;
+    margin-bottom: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.logo {
+    margin-left: 1rem;
+    color: white;}
+
+.total-products-container {
+    margin-right: 1rem;
+    border-right: 1px solid white;
+    padding-right: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.total-products {color: white;}
+
+.status {
+    color: white;
+    margin-right: 1rem;}
+
+.main-text {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.icons i {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.icons {    text-align: center;}
+
+.options {
+    display: flex;
+    max-width: 100%;}
+
+.left-option {
+    padding: 1rem;
+    background-color: #084183;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    min-width: 27%;
+    border-radius: 50px 0 0 50px;
+}
+
+.middle-option {
+    padding: 1rem;
+    background-color: #084183;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    min-width: 27%;
+}
+
+.right-option {
+    padding: 1rem;
+    background-color: #084183;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    min-width: 27%;
+    border-radius: 0 50px 50px 0;
+}
+
+input {
+    border: none;
+    width: 60%;
+    border-radius: 20px;
+    height: 2rem;
+    margin-top: 0;}
+
+select {
+    border: none;
+    border-radius: 20px;
+    height: 2rem;
+    width: 60%;}
+
+form {
+    vertical-align: middle;
+    margin-bottom: 0}
+
+.arrow {
+    max-height: 2rem;
+    margin-left: 0.5rem;}
+
+.option-text {
+    margin-bottom: 5rem;
+    color: white;
+    font-weight: normal;
+}
+
+.search-form {
+    display: flex;}
+
+.form-register {
+    width: 100%;
+    display: flex;}
+
+.left-form {
+    background-color: #084183;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    border-radius: 40px 0 0 40px;
+    width: 50%;
+}
+
+.right-form {
+    background-color: #084183;
+    margin-left: 0.5rem;
+    padding: 1rem;
+    border-radius: 0 40px 40px 0;
+    width: 50%;
+}
+
+.register-input {
+    min-width: 30rem;
+}
+
+.register-text {
+    color: white;
+    font-weight: normal;
+}
+
+.product-title {
+    background-color: #084183;
+    width: 100%;}
+
+.table-product-buttom {
+    width: 5%;
+}
+
+.table-product-name {
+    width: 50%;
+    background-color: white;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.table-product-category {
+    width: 15%;
+    background-color: white;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.table-product-like {
+    width: 30%;
+    background-color: white;
+    margin-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.table-product-name-title {
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+.table-product-category-title {
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+.table-product-like-title {
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+
+table {
+    width: 100%;
+    background-color: #084183;
+    padding: 0 1rem 1rem 1rem;}
+
+.product-title h2 {
+    text-align: center;
+    color: white;
+}
+
+.product-title {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    padding: 0.3rem;
+    border-radius: 50px 50px 0 0;
+}
+
+.likes-price-product {
+    display: flex;
+}
+
+.likes-product {
+    background-color: #084183;
+    padding: 0.3rem;
+    margin-right: 0.25rem;
+    width: 49%
+}
+
+.likes-product h2 {
+    color: white;
+    padding-left: 1rem;
+}
+
+.review-button {
+    width: 100%;
+    height: 100%;
+    border-radius: 50rem;
+    background-color: white;
+    border: 5px solid #084183;
+}
+
+.review-button-div {
+    width: 49%;
+    margin-left: 0.25rem;
+}
+
+.reviews {
+    background-color: #084183;
+    padding: 1rem;
+    border-radius: 0 0 50px 50px;
+    margin-top: 0.3rem;
+    overflow:hidden;
+    margin-bottom: 1rem;
+}
+
+.reviews h2 {
+    color: white;
+}
+
+.review {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 50px;
+    float: left;
+    width: 46%;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-top: 0.5rem;
+    height: 10rem;
+}
+
+.user-liked-review {
+    display: flex}
+
+.user-review {
+    background-color: #084183;
+    margin-right: 0.25rem;
+    width: 49%;
+    border-radius: 20px;
+}
+
+.user-review h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.liked-review {
+    background-color: #084183;
+    width: 49%;
+    border-radius: 20px;
+}
+
+.liked-review h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
+    padding-left: 0.5rem;
+}
