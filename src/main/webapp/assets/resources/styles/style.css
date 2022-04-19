@@ -196,7 +196,8 @@ form {
 }
 
 .register-input {
-    min-width: 30rem;
+    min-width: 35rem;
+    margin-bottom: 0.5rem;
 }
 
 .register-text {
@@ -357,4 +358,9 @@ table {
     margin-bottom: 0.5rem;
     margin-left: 0.25rem;
     padding-left: 0.5rem;
+}
+
+.error {
+    color: orangered;
+    border-radius: 10px;
 }
