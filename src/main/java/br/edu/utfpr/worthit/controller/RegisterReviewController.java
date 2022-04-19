@@ -51,10 +51,10 @@ public class RegisterReviewController extends HttpServlet {
         total++;
         getServletContext().setAttribute(Constants.TOTAL_PRODUCTS, total);
 
-        Cookie cookie = new Cookie("productName", productName);
+        Cookie cookie = new Cookie("likes", "1d");
         cookie.setMaxAge(60 * 60 * 24);
 
-        Cookie cookie2 = new Cookie("userName", userName);
+        Cookie cookie2 = new Cookie("category", "1s");
         cookie2.setMaxAge(-1);
 
         response.addCookie(cookie);
