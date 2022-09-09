@@ -22,7 +22,7 @@ https://www.figma.com/proto/2OS1RIRgVeOGEbQDpOAHTC/Untitled?node-id=11%3A6&start
   - [x] if
   - [x] Template com cabeçalho e rodapé
 - [x] JavaScript
-  - [x] Requisição AJAX
+  - [ ] Requisição AJAX
   - [x] Armazenamento no LocalStorage
   - [x] Uso de plugin JQuery
 - [x] JPA
