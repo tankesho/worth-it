@@ -17,6 +17,7 @@ https://www.figma.com/proto/2OS1RIRgVeOGEbQDpOAHTC/Untitled?node-id=11%3A6&start
 - [x] Controle de erros e exceção via web.xml
   - [x] Tratamento por código de status ou exceção específica
   - [x] Tratamento de erros genérico
+- [x] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC
 - [x] JSTL e TagLib
   - [x] forEach
   - [x] if
