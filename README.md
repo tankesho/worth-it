@@ -25,7 +25,7 @@ https://www.figma.com/proto/2OS1RIRgVeOGEbQDpOAHTC/Untitled?node-id=11%3A6&start
 - [x] JavaScript
   - [ ] Requisição AJAX
   - [x] Armazenamento no LocalStorage
-  - [x] Uso de plugin JQuery
+  - [ ] Uso de plugin JQuery
 - [x] JPA
   - [x] No mínimo 2 entidades
   - [x] Operações de CRUD
